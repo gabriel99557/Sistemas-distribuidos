@@ -1,0 +1,26 @@
+Relógio Físico (RTC – Real Time Clock)
+
+Também chamado de relógio de hardware.
+
+Fica em um chip dedicado na placa-mãe.
+
+Alimentado pela bateria CMOS, para não perder a hora quando o PC está desligado.
+
+Responsável por manter a data e hora reais (tempo de parede).
+
+É acessível pela BIOS/UEFI.
+
+Serve como base inicial para o sistema operacional ajustar o relógio lógico na inicialização.
+
+Exemplo:
+Se você desligar o PC e voltar 1 semana depois, o relógio físico manteve a hora correta.
+
+Relógio Lógico (Clock de sistema / Software)
+
+Mantido pelo sistema operacional (Windows, Linux, etc.) após a inicialização.
+
+Depende de interrupções do processador (ex.: timer ticks) para contar o tempo.
+
+Pode ser sincronizado com servidores de hora na Internet (NTP).
+
+Pode sofrer desvios (atrasar ou adiantar levemente), por isso o sistema sincroniza de tempos em tempos.
